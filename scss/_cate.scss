@@ -1,0 +1,102 @@
+.categories-navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+    padding-bottom: 0.625rem;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: auto;
+}
+.category-navbar.active a {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #35639F;
+    line-height: 2rem;
+}
+.category-navbar {
+    line-height: 1.5625rem;
+}
+.category-navbar + .category-navbar {
+    margin-left: 2.5rem;
+}
+.category-navbar:first-child {
+    margin-right: 1rem;
+    position: relative;
+    user-select: none;
+    pointer-events: none;
+}
+.category-navbar:first-child::before {
+    position: absolute;
+    content: '\276F';
+    font-size: 1.5rem;
+    color: #62DFEC;
+    top: 50%;
+    right: -2rem;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.cate-left-row-one .row-one-large {
+    display: flex;
+    width: 100%;
+}
+.cate-left-row-one .row-one-large__img {
+    width: 50%;
+    flex-shrink: 0;
+}
+.cate-left-row-one .row-one-large__content {
+    flex: 1;
+}
+.cate-left-row-one .row-one-small {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.25rem;
+}
+.cate-left-row-one .row-one-thumb:first-child {
+    padding-top: 1.375rem;
+}
+.cate-left-row-one .row-one-thumb {
+    display: flex;
+    flex-direction: column;
+}
+.cate-left-row-one .row-one-thumb__img {
+    flex-shrink: 0;
+}
+.cate-left-row-one .row-one-thumb__content {
+    border-bottom: none;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.cate-left-row-one .row-one-thumb__content .row-one-thumb__public{
+    margin-top: auto;
+}
+.cate-left-row-three {
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+    margin-top: 1.875rem;
+}
+.cate-left-row-three .row-three__left-img{
+    width: 15.625rem;
+}
+.cate-right .consulting .header-block__link.active {
+    color: #c43000;
+}
+.cate-right .consulting .consulting-main-news,
+.cate-right .consulting .consulting-related-news {
+    display: block;
+}
+.cate-right .consulting .consulting-main-news__info,
+.cate-right .consulting .consulting-related-news__item {
+    background: #FFFEF5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.625rem 0 1.5rem;
+}
+.cate-right .consulting .consulting-related-news__item {
+    margin-bottom: 1.25rem;
+}
+.cate-right .latest-news {
+    margin-top: 1.875rem;
+}

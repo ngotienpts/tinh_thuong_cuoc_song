@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="./images/favicon-32x32.png" sizes="32x32"> -->
+    <title>The investor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;500;600;700;800&family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- banner -->
+    <section class="banner-top">
+      <a href="#">
+        <img src="./images/banner_top_pc.jpg" alt="">
+      </a>
+    </section>
+    <!-- end banner -->
+    <!-- main header -->
+    <section class="nav-header-wrapper bg-blue-28">
+      <div class="nav-header w-1140 d-flex align-items-center justify-content-between">
+        <div class="nav-header__left">
+          <div class="navbar-mb-item navbar-mb-item__bar show-submenu d-lg-none d-block mr-20">
+            <i class="fas fa-bars text-white"></i>
+          </div>
+          <a href="#">
+            <img src="./images/logo.png" alt="" class="nav-header__logo">
+          </a>
+        </div>
+        <ul class="nav-header__right d-flex align-items-center">
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-fb">
+              <img src="./images/Facebook.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-twitter">
+              <img src="./images/Twitter.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-linker">
+              <img src="./images/linker.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item">
+            <a href="#" class="nav-header__right-link nav-header__right-gg">
+              <img src="./images/google+.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-item d-lg-none d-block">
+            <a href="#" class="nav-header__right-link show-submenu">
+              <img src="./images/search.svg" alt="" class="nav-header__right-icon">
+            </a>
+          </li>
+          <li class="nav-header__right-search d-lg-block d-none">
+            <form action="">
+              <div class="position-relative nav-search-group">
+                <button class="btn btn-search text-gray-33">
+                  <img src="./images/search.svg" alt="">
+                </button>
+                <input type="text" class="fs-14 form-control-t form-search-pc position-absolute" placeholder="Search">
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- end main header -->
+    <!-- nav-related mb -->
+    <section class="nav-related px-12 py-2 bg-blue-28 d-lg-none d-block">
+      <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 nav-related-link">Latest</a>
+      <a href="#" class="text-white btn bg-blue-28 fs-14 border-999 nav-related-link">Most Read</a>
+    </section>
+    <!-- end nav-related mb -->
+    <!-- sub menu mb -->
+    <section class="sub-menu-mb-wrapper d-lg-none d-block">
+      <div class="sub-menu-mb">
+        <!-- close -->
+        <div class="close-sub-menu">
+          <i class="fas fa-times text-red-cc0 fs-24"></i>
+        </div>
+        <!-- end close -->
+        <!-- content -->
+        <ul class="sub-menu-mb-content">
+          <!--  -->
+          <li class="sub-menu-mb-item sub-menu-mb-item--search">
+            <div class="search-mb">
+              <form action="">
+                <div class="d-flex align-items-center position-relative">
+                  <input type="text" class="form-control-t form-search-mb fs-12" placeholder="Tìm kiếm...">
+                  <button class="btn-search-mb fs-14 text-gray-33"><i class="fas fa-search"></i></button>
+                </div>
+              </form>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item bg-gray-f9">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Trang nhất</a>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Đời sống</a>
+            </div>
+          </li>
+          <!--  -->
+          <li class="sub-menu-mb-item">
+            <div class="d-flex align-items-center justify-content-between">
+              <a href="#" class="text-gray-33 fw-600 fs-16 text-uppercase">Đời sống</a>
+            </div>
+          </li>
+        </ul>
+        <!-- end content -->
+      </div>
+    </section>
+    <!-- end sub menu mb -->
+    <!-- header -->
+    <header id="header">
+      <!-- navigation bar-->
+      <section class="navigation-bar-wrapper bg-blue-28">
+        <div class="w-1140 navigation-bar">
+          <!-- pc -->
+          <ul class="navigation-bar-list d-lg-flex align-items-center d-none">
+            <li class="navigation-bar-item fs-16">
+              <a href="#"><i class="fas fa-home text-white"></i></a>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title font-primary fw-600">
+                <a href="#" class="text-white">Top News</a>
+              </div>
+              <ul class="navigation-bar-item__dropdown fs-12 bg-white shadown-1">
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navigation-bar-item">
+              <div class="navigation-bar-item__title font-primary fw-600">
+                <a href="#" class="text-white">Investing</a>
+              </div>
+              <ul class="navigation-bar-item__dropdown fs-12 bg-white shadown-1">
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+                <li class="navigation-bar-item__children">
+                  <a href="#" class="text-gray-33">Thời sự</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- end pc -->
+          <!-- mobile -->
+          <ul class="navigation-bar-list navigation-bar-list--mb d-lg-none d-block px-12">
+            <li class="navigation-bar-item fs-16">
+              <a href="#"><i class="fas fa-home text-white"></i></a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-white">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-white">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-white">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-white">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-white">Top News</a>
+            </li>
+            <li class="navigation-bar-item">
+              <a href="#" class="text-white">Top News</a>
+            </li>
+          </ul>
+          <!-- end mobile -->
+        </div>
+      </section>
+      <!-- end navigation bar-->
+    </header>
+    <!-- end header -->
+    <!-- main -->
+    <main id="main">
+        <!-- categories navbar-->
+        <ul class="categories-navbar w-1140 d-lg-flex d-none">
+            <li class="category-navbar active font-primary">
+                <a href="#" class="text-gray-33">Top News</a>
+            </li>
+            <li class="category-navbar font-primary">
+                <a href="#" class="text-gray-33">Politics</a>
+            </li>
+            <li class="category-navbar font-primary">
+                <a href="#" class="text-gray-33">Economy</a>
+            </li>
+            <li class="category-navbar font-primary">
+                <a href="#" class="text-gray-33">Society</a>
+            </li>
+        </ul>
+        <!-- end categories navbar-->
+        <sectiion class="main w-1140 mb-lg-4 mt-20">
+            <!-- main left -->
+            <div class="main-left detail left">
+              <!-- box top -->
+              <div class="col-lg-12 col-sm-12 col-12 px-0 detail-box">
+                  <div class="position-relative d-lg-block d-none">
+                      <div class="icon-share-2">
+                          <div class="detail-icon-comment"><a href="#"><img src="./images/fb3.svg" alt=""></a></div>
+                          <div class="detail-icon-comment"><a href="#"><img src="./images/twitter3.svg" alt=""></a></div>
+                          <div class="detail-icon-comment"><a href="#"><img src="./images/zalo.png" alt=""></a></div>
+                          <div class="detail-icon-comment"><a href="#"><img src="./images/link.svg" alt=""></a></div>
+                          <div class="detail-icon-comment"><a href="#"><img src="./images/bookmak.svg" alt=""></a></div>
+                          <div class="detail-icon-comment "><a href=""><img src="./images/err.svg" alt=""></a></div>
+                      </div>
+                  </div>
+                  <div class="detail-content">
+                      <h1 class="fs-32 fw-700 detail-title pb-4 font-opensan line-46">
+                          Vingroup plans U.S. IPO for automaking arm in late 2022
+                      </h1>
+                      <div class="mb-4">
+                          <span class="text-gray-82 fs-13 font-secondary">By <span class="fw-600 text-gray-66">Evelyn Cheng</span></span><br>
+                          <span class="text-gray-82 fs-13 font-secondary">Tue, Dec 21, 2021 | 2:40 pm GMT+7</span>
+                      </div>
+                      <h2 class="detail-des fs-17 font-noto fw-700 text-gray-44 mb-20 line-28">
+                          Vietnam will need an aid package worth 5.5-8 percent of its GDP, or VND445.76-666 trillion ($419.38-28.95 billion) aid recovery over the next two years, said local economists.
+                      </h2>
+                      <figure class="expNoEdit">
+                          <img src="./images/2.jpg" alt="" >  
+                          <figcaption>  
+                              <h2 class="expEdit">
+                                  <em>Ảnh minh hoạ. Nguồn: Internet</em>
+                              </h2>  
+                          </figcaption>  
+                      </figure>
+                      <p>Vingroup JSC, Vietnam's largest conglomerate, said on Saturday it is planning to list its car unit on the U.S. stock market in the second half of next year, in an offering expected to raise at least $3 billion.</p>
+                      <p>Just last month, an official said the listing may happen within the next couple of years https://www.reuters.com/business/autos-transportation/vietnams-vinfast-plans-us-listing-couple-years-ceo-2021-11-17, as the company joins a growing list of electric vehicle startups taking advantage of investor excitement to raise funds.</p>
+                      <p>VinFast, Vingroup's automaking arm, had flagged https://www.reuters.com/article/us-vinfast-ipo-idUSKBN2BZ19G in April it was seeking an IPO slated for the second quarter of this year, eyeing a $60 billion valuation with expectation to raise at least $3 billion.</p>
+                      <p>In Saturday's statement, Vingroup said it had set up a Singapore-based holding company owning a stake in Vinfast's operations in Vietnam to fuel the IPO process.</p>
+                      <p>"The new company, VinFast Singapore, is a step to turn VinFast into a global company and prepare for its U.S. IPO," the company said in the statement. "Vingroup will be a major shareholder of VinFast Singapore."</p>
+                      <p>On Thursday, Reuters exclusively reported Vingroup was seeking $1 bln from global investors for VinFast in pre-IPO fundraising.</p>
+                      <p>VinFast became the country's first fully fledged domestic car manufacturer when its gasoline-powered models built under its own badge hit the streets in 2019.</p>
+                      <p>VinFast is betting big on the U.S. market, where it hopes that its electric SUVs and a battery leasing model will be enough to woo consumers away from the likes of Tesla and General Motors.</p>
+                      <p>In a separate statement to Reuters, Vingroup said it was targeting global electric vehicle sales of 42,000 units next year, up from its previous plan of 15,000.</p>
+                          
+                  </div>
+              </div>
+              <!-- end box top -->
+              <!-- share -->
+              <div class="detail-icon-share-line mb-20">
+                  <div class="detail-icon-share">
+                      <a href="#" class="text-white detail-icon-share__link detail-fb-icon "><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="detail-icon-share">
+                      <a href="#" class=" text-white detail-icon-share__link detail-like-icon "><i class="far fa-thumbs-up"></i>&nbsp;<span class="fs-14">Like</span></a>
+                  </div>
+                  <div class="detail-icon-share">
+                      <a href="#" class=" text-white detail-icon-share__link detail-twitter-icon "><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="detail-icon-share">
+                      <a href="#" class=" text-white detail-icon-share__link detail-linker-icon "><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <div class="detail-icon-share">
+                      <a href="#" class=" text-white detail-icon-share__link detail-email-icon "><img src="./images/email.png" alt=""></a>
+                  </div>
+              </div>
+              <!-- end share -->
+              <!-- tag lien quan mb -->
+              <div class="detail-tags__pc d-lg-none d-flex">
+                <div class="detail-tags">
+                    <div class="detail-tag-icon detail-tag"><i class="fas fa-tags text-blue-28 mr-1"></i>Tags:</div>
+                    <div class="detail-tag-item detail-tag"><a href="#">Philippines</a></div>
+                    <div class="detail-tag-item detail-tag"><a href="#">Philippines</a></div>
+                    <div class="detail-tag-item detail-tag"><a href="#">Philippines</a></div>
+                </div>
+              </div>
+              <!-- end tag lien quan mb -->
+              <!-- comment -->
+              <div class="mb-20 text-center">Load comment FB</div>
+              <!-- end comment -->
+              <!-- tag lien quan pc -->
+              <div class="detail-tags__pc d-lg-flex d-none">
+                <div class="detail-tags">
+                    <div class="detail-tag-icon detail-tag"><i class="fas fa-tags text-blue-28 mr-1"></i>Tags:</div>
+                    <div class="detail-tag-item detail-tag"><a href="#">Philippines</a></div>
+                    <div class="detail-tag-item detail-tag"><a href="#">Philippines</a></div>
+                    <div class="detail-tag-item detail-tag"><a href="#">Philippines</a></div>
+                </div>
+              </div>
+              <!-- end tag lien quan pc -->
+              
+              <!-- related news -->
+              <div class="related-news-detail mt-20">
+                <!-- header block -->
+                <ul class="header-block font-primary fs-14 fw-600">
+                  <li class="header-block__item">
+                    <a href="#" class="header-block__link active">Related News</a>
+                  </li>
+                </ul>
+                <!-- header block -->
+                <!-- content -->
+                <div class="main-left-row-two mt-20 related-news-detail-content">
+                  <!-- item -->
+                  <div class="row-two-item">
+                    <!-- img -->
+                    <div class="row-two-item__img">
+                      <div class="">
+                        <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="row-two-item__content pt-12">
+                      <h3 class="row-two-item__heading fs-17 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                      <p class="row-one-thumb__public font-secondary fs-13 text-gray-82 line-15 pt-12 d-lg-none d-block"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                    </div>
+                    <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                  <!-- item -->
+                  <div class="row-two-item">
+                    <!-- img -->
+                    <div class="row-two-item__img">
+                      <div class="">
+                        <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="row-two-item__content pt-12">
+                      <h3 class="row-two-item__heading fs-17 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                      <p class="row-one-thumb__public font-secondary fs-13 text-gray-82 line-15 pt-12 d-lg-none d-block"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                    </div>
+                    <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                  <!-- item -->
+                  <div class="row-two-item">
+                    <!-- img -->
+                    <div class="row-two-item__img">
+                      <div class="">
+                        <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                            <img class="" src="./images/2.jpg" alt=""></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end img -->
+                    <!-- content -->
+                    <div class="row-two-item__content pt-12">
+                      <h3 class="row-two-item__heading fs-17 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                      <p class="row-one-thumb__public font-secondary fs-13 text-gray-82 line-15 pt-12 d-lg-none d-block"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                    </div>
+                    <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                </div>
+                <!-- end content -->
+              </div>
+              <!-- end related news -->
+              <!-- read more -->
+              <div class="read-more-detail mt-4">
+                <!-- header block -->
+                <ul class="header-block font-primary fs-14 fw-600">
+                  <li class="header-block__item">
+                    <a href="#" class="header-block__link active">Related More</a>
+                  </li>
+                </ul>
+                <!-- header block -->
+                <!-- content -->
+                <div class="read-more-content mt-20">
+                  <!-- item -->
+                  <div class="row-three__left-item py-20">
+                      <!-- img -->
+                      <div class="row-three__left-img">
+                      <div class="">
+                          <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                              <img class="" src="./images/2.jpg" alt=""></a>
+                          </div>
+                      </div>
+                      </div>
+                      <!-- end img -->
+                      <!-- content -->
+                      <div class="row-three__left-content pl-15">
+                      <h3 class="row-three__left-heading fs-20 fw-700">
+                          <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                      <p class="row-one-large__des fs-15 line-19 py-12 d-lg-block d-none">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+                      <p class="row-three__left-public font-secondary fs-13 text-gray-82 line-15 pt-10"><span class="fw-700 text-gray-66">Investing</span> - Mon, Dec 22, 2021 | 11:30 am GMT+7 </p>
+                      </div>
+                      <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                  <!-- item -->
+                  <div class="row-three__left-item py-20">
+                      <!-- img -->
+                      <div class="row-three__left-img">
+                      <div class="">
+                          <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                              <img class="" src="./images/2.jpg" alt=""></a>
+                          </div>
+                      </div>
+                      </div>
+                      <!-- end img -->
+                      <!-- content -->
+                      <div class="row-three__left-content pl-15">
+                      <h3 class="row-three__left-heading fs-20 fw-700">
+                          <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                      <p class="row-one-large__des fs-15 line-19 py-12 d-lg-block d-none">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+                      <p class="row-three__left-public font-secondary fs-13 text-gray-82 line-15 pt-10"><span class="fw-700 text-gray-66">Investing</span> - Mon, Dec 22, 2021 | 11:30 am GMT+7 </p>
+                      </div>
+                      <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                  <!-- item -->
+                  <div class="row-three__left-item py-20">
+                      <!-- img -->
+                      <div class="row-three__left-img">
+                      <div class="">
+                          <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                              <img class="" src="./images/2.jpg" alt=""></a>
+                          </div>
+                      </div>
+                      </div>
+                      <!-- end img -->
+                      <!-- content -->
+                      <div class="row-three__left-content pl-15">
+                      <h3 class="row-three__left-heading fs-20 fw-700">
+                          <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                      <p class="row-one-large__des fs-15 line-19 py-12 d-lg-block d-none">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+                      <p class="row-three__left-public font-secondary fs-13 text-gray-82 line-15 pt-10"><span class="fw-700 text-gray-66">Investing</span> - Mon, Dec 22, 2021 | 11:30 am GMT+7 </p>
+                      </div>
+                      <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                  <!-- item -->
+                  <div class="row-three__left-item py-20">
+                      <!-- img -->
+                      <div class="row-three__left-img">
+                      <div class="">
+                          <div class="thumb-img">
+                          <a href="#" class="thumb-item thumb-5x3">
+                              <img class="" src="./images/2.jpg" alt=""></a>
+                          </div>
+                      </div>
+                      </div>
+                      <!-- end img -->
+                      <!-- content -->
+                      <div class="row-three__left-content pl-15">
+                      <h3 class="row-three__left-heading fs-20 fw-700">
+                          <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                      <p class="row-one-large__des fs-15 line-19 py-12 d-lg-block d-none">The company said growth in Vietnam is higher than in Indonesia, Thailand, Malaysia.</p>
+                      <p class="row-three__left-public font-secondary fs-13 text-gray-82 line-15 pt-10"><span class="fw-700 text-gray-66">Investing</span> - Mon, Dec 22, 2021 | 11:30 am GMT+7 </p>
+                      </div>
+                      <!-- end content -->
+                  </div>
+                  <!-- end item -->
+                  <!-- load more -->
+                  <button class="btn bg-blue-28 fs-14 mx-auto d-block my-3">Load more</button>
+                  <!-- end load more -->
+                  </div>
+                <!-- end content -->
+              </div>
+              <!-- end read more -->
+            </div>
+            <!-- end main left -->
+            <!-- main right -->
+            <div class="main-right cate-right detail-right">
+              <!-- politics -->
+              <div class="latest-news d-lg-block d-none mt-0">
+                  <!-- header -->
+                  <ul class="header-block font-primary fs-14 fw-600">
+                    <li class="header-block__item">
+                      <a href="#" class="header-block__link active fix-size">Politics</a>
+                    </li>
+                  </ul>
+                  <!-- end header -->
+                  <!-- list -->
+                  <ul class="latest-news__list">
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                        <!-- img -->
+                        <div class="latest-news__img">
+                          <div class="">
+                              <div class="thumb-img">
+                              <a href="#" class="thumb-item thumb-5x3">
+                                  <img class="" src="./images/2.jpg" alt=""></a>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- end img -->
+                      <h3 class="row-two-item__heading fs-17 fw-700 pt-12">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                      <h3 class="row-two-item__heading fs-14 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                      <h3 class="row-two-item__heading fs-14 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                  </ul>
+                  <!-- end list -->
+                </div>
+              <!-- end politics -->
+              <!-- economy -->
+              <div class="latest-news d-lg-block d-none">
+                  <!-- header -->
+                  <ul class="header-block font-primary fs-14 fw-600">
+                    <li class="header-block__item">
+                      <a href="#" class="header-block__link active fix-size">Economy</a>
+                    </li>
+                  </ul>
+                  <!-- end header -->
+                  <!-- list -->
+                  <ul class="latest-news__list">
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                        <!-- img -->
+                        <div class="latest-news__img">
+                          <div class="">
+                              <div class="thumb-img">
+                              <a href="#" class="thumb-item thumb-5x3">
+                                  <img class="" src="./images/2.jpg" alt=""></a>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- end img -->
+                      <h3 class="row-two-item__heading fs-17 fw-700 pt-12">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                      <h3 class="row-two-item__heading fs-14 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                      <h3 class="row-two-item__heading fs-14 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                  </ul>
+                  <!-- end list -->
+                </div>
+              <!-- end economy -->
+              <!-- society -->
+              <div class="latest-news d-lg-block d-none">
+                  <!-- header -->
+                  <ul class="header-block font-primary fs-14 fw-600">
+                    <li class="header-block__item">
+                      <a href="#" class="header-block__link active fix-size">Society</a>
+                    </li>
+                  </ul>
+                  <!-- end header -->
+                  <!-- list -->
+                  <ul class="latest-news__list">
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                        <!-- img -->
+                        <div class="latest-news__img">
+                          <div class="">
+                              <div class="thumb-img">
+                              <a href="#" class="thumb-item thumb-5x3">
+                                  <img class="" src="./images/2.jpg" alt=""></a>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- end img -->
+                      <h3 class="row-two-item__heading fs-17 fw-700 pt-12">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                      <h3 class="row-two-item__heading fs-14 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                    <!-- item -->
+                    <li class="latest-news__item py-10">
+                      <h3 class="row-two-item__heading fs-14 fw-700">
+                        <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                      </h3>
+                    </li>
+                    <!-- end item -->
+                  </ul>
+                  <!-- end list -->
+                </div>
+              <!-- end society -->
+              <!-- consulting-->
+              <div class="consulting d-lg-block d-none">
+                <!-- hearder block -->
+                <ul class="header-block font-primary fs-14 fw-600">
+                <li class="header-block__item">
+                    <a href="#" class="header-block__link active fix-size">Consulting</a>
+                </li>
+                </ul>
+                <!-- end hearder block -->
+                <!-- content -->
+                <div class="consulting-content mt-20">
+                <!-- tin chinh -->
+                <div class="consulting-main-news">
+                    <!-- info -->
+                    <div class="consulting-main-news__info">
+                    <img src="./images/kpmg.png" alt="" class="kpmg-img">
+                    <h3 class="consulting-main-news__title fs-20 fw-700 py-12">
+                        <a href="#" class="line-26">Amazon denies unfair seller policy as it aims to expand in Vietnam</a>
+                    </h3>
+                    <div class="author">
+                        <a href="#" class="author-link">
+                        <img src="./images/2.jpg" alt="" class="author-img">
+                        <h3 class="author-name text-gray-66 font-secondary fw-700 fs-13 ml-10">Dang Thu Hang</h3>
+                        </a>
+                    </div>
+                    </div>
+                    <!-- end info -->
+                </div>
+                <!-- end tin chinh -->
+                <!-- tin lien quan -->
+                <div class="consulting-related-news mt-4">
+                    <!-- item -->
+                    <div class="consulting-related-news__item">
+                    <h3 class="consulting-related-news__title fs-17 fw-700 mb-20">
+                        <a href="#" class="line-26">Amazon denies unfair seller policy as it aims to expand in Vietnam</a>
+                    </h3>
+                    <div class="author">
+                        <a href="#" class="author-link">
+                        <img src="./images/2.jpg" alt="" class="author-img">
+                        <h3 class="author-name text-gray-66 font-secondary fw-700 fs-13 ml-10">Dang Thu Hang</h3>
+                        </a>
+                    </div>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="consulting-related-news__item">
+                    <h3 class="consulting-related-news__title fs-17 fw-700 mb-20">
+                        <a href="#" class="line-26">Amazon denies unfair seller policy as it aims to expand in Vietnam</a>
+                    </h3>
+                    <div class="author">
+                        <a href="#" class="author-link">
+                        <img src="./images/2.jpg" alt="" class="author-img">
+                        <h3 class="author-name text-gray-66 font-secondary fw-700 fs-13 ml-10">Dang Thu Hang</h3>
+                        </a>
+                    </div>
+                    </div>
+                    <!-- end item -->
+                </div>
+                <!-- end tin lien quan -->
+                </div>
+                <!-- end content -->
+              </div>
+              <!-- end consulting-->
+              <!-- opinion -->
+              <div class="opinion d-lg-block d-none">
+                  <!-- header -->
+                  <ul class="header-block font-primary fs-14 fw-600">
+                  <li class="header-block__item">
+                      <a href="#" class="header-block__link active fix-color--red">Opinion</a>
+                  </li>
+                  </ul>
+                  <!-- end header -->
+                  <!-- list -->
+                  <ul class="opinion-list">
+                  <!-- item -->
+                  <li class="opinion-item">
+                      <a href="#" class="author-link bg-fffe pb-20 pr-10">
+                      <img src="./images/2.jpg" alt="" class="author-img">
+                      <div class="ml-10">
+                          <h3 class="opinion-item__heading fs-17 fw-700 pt-10">ADB slashes Malaysia and Vietnam annual growth forecasts
+                          </h3>
+                          <p class="opinion-item__public font-secondary fs-13 text-gray-82 line-15 pt-12"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                      </div>
+                      </a>
+                  </li>
+                  <!-- end item -->
+                  <!-- item -->
+                  <li class="opinion-item">
+                      <a href="#" class="author-link bg-fffe pb-20 pr-10">
+                      <img src="./images/2.jpg" alt="" class="author-img">
+                      <div class="ml-10">
+                          <h3 class="opinion-item__heading fs-17 fw-700 pt-10">ADB slashes Malaysia and Vietnam annual growth forecasts
+                          </h3>
+                          <p class="opinion-item__public font-secondary fs-13 text-gray-82 line-15 pt-12"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                      </div>
+                      </a>
+                  </li>
+                  <!-- end item -->
+                  <!-- item -->
+                  <li class="opinion-item">
+                      <a href="#" class="author-link bg-fffe pb-20 pr-10 pt-10">
+                      <img src="./images/2.jpg" alt="" class="author-img">
+                      <div class="ml-10">
+                          <h3 class="opinion-item__heading fs-17 fw-700">ADB slashes Malaysia and Vietnam annual growth forecasts
+                          </h3>
+                          <p class="opinion-item__public font-secondary fs-13 text-gray-82 line-15 pt-12"><span class="fw-700 text-gray-66">Investing</span> - 27 min</p>
+                      </div>
+                      </a>
+                  </li>
+                  <!-- end item -->
+                  </ul>
+                  <!-- end list -->
+              </div>
+              <!-- end opinion -->
+              <!-- investing -->
+              <div class="latest-news d-lg-block d-none">
+                <!-- header -->
+                <ul class="header-block font-primary fs-14 fw-600">
+                  <li class="header-block__item">
+                    <a href="#" class="header-block__link active fix-size">Investing</a>
+                  </li>
+                </ul>
+                <!-- end header -->
+                <!-- list -->
+                <ul class="latest-news__list">
+                  <!-- item -->
+                  <li class="latest-news__item py-10">
+                      <!-- img -->
+                      <div class="latest-news__img">
+                        <div class="">
+                            <div class="thumb-img">
+                            <a href="#" class="thumb-item thumb-5x3">
+                                <img class="" src="./images/2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- end img -->
+                    <h3 class="row-two-item__heading fs-17 fw-700 pt-12">
+                      <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                    </h3>
+                  </li>
+                  <!-- end item -->
+                  <!-- item -->
+                  <li class="latest-news__item py-10">
+                    <h3 class="row-two-item__heading fs-14 fw-700">
+                      <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                    </h3>
+                  </li>
+                  <!-- end item -->
+                  <!-- item -->
+                  <li class="latest-news__item py-10">
+                    <h3 class="row-two-item__heading fs-14 fw-700">
+                      <a href="#" class="text-gray-33 line-22">ADB slashes Malaysia and Vietnam annual growth forecasts</a>
+                    </h3>
+                  </li>
+                  <!-- end item -->
+                </ul>
+                <!-- end list -->
+              </div>
+            <!-- end investing -->
+            </div>
+            <!-- end main right -->
+        </sectiion>
+        <!-- banner footer -->
+        <div class="banner-footer d-flex justify-content-center py-10">
+            <div class="w-1140">
+            <a href="#"><img src="./images/sunshine-0.png" alt="" class=""></a>
+            </div>
+        </div>
+        <!-- end banner footer -->
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer id="footer" class="bg-blue-28">
+      <!-- back top -->
+      <div id="back-top"><i class="fas fa-arrow-up text-white"></i></div>
+      <!-- end back top -->
+      <!-- footer top -->
+      <section class="footer-top w-1140">
+        <!-- left -->
+        <div class="footer-top__left">
+          <!-- header -->
+          <div class="footer-top__left-header">
+            <!-- logo -->
+            <div class="footer-logo d-lg-block d-none">
+              <a href="#" class="">
+                <img src="./images/logo.png" alt="" class="nav-header__logo">
+              </a>
+            </div>
+            <!-- end logo -->
+            <!-- social -->
+            <ul class="footer-social">
+              <li class="footer-social__item mr-10 d-lg-block d-none">
+                <a href="tel:0888558668" class="d-flex align-items-center">
+                  <div class="footer-social__link">
+                    <img src="./images/phone.svg" alt="footer-social__icon footer-social__phone">
+                  </div>
+                  <div class="font-primary fs-14 text-white ml-2">Hotline: <p class="fw-700">0888558668</p></div>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="#" class="footer-social__link">
+                  <img src="./images/fb2.svg" alt="footer-social__icon footer-social__fb">
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="#" class="footer-social__link">
+                  <img src="./images/twitter2.svg" alt="footer-social__icon footer-social__twitter">
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="#" class="footer-social__link">
+                  <img src="./images/linker2.svg" alt="footer-social__icon footer-social__linker">
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="#" class="footer-social__link">
+                  <img src="./images/gg+.svg" alt="footer-social__icon footer-social__gg">
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="#" class="footer-social__link show-submenu">
+                  <img src="./images/search2.svg" alt="footer-social__icon footer-social__search">
+                </a>
+              </li>
+            </ul>
+            <!-- end social -->
+          </div>
+          <!-- end header -->
+          <!-- category -->
+          <div class="d-lg-none d-block">
+            <ul class="footer-categories my-20">
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Top News</a>
+              </li>
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Colsunting</a>
+              </li>
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Investing</a>
+              </li>
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Travel & Life</a>
+              </li>
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Companies</a>
+              </li>
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Opinion</a>
+              </li>
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Real Estate</a>
+              </li>
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Infographics</a>
+              </li>
+              <li class="footer-cate font-primary fw-600">
+                <a href="#" class="text-white">Banking & Finace</a>
+              </li>
+            </ul>
+            <!-- logo -->
+            <div class="footer-logo-mb d-lg-none d-block">
+              <a href="#" class="">
+                <img src="./images/logo.png" alt="" class="footer-logo-mb__logo">
+              </a>
+            </div>
+            <!-- end logo -->
+          </div>
+          <!-- end category -->
+          <!-- text -->
+          <div class="footer-top__left-text text-white fs-14 font-secondary">
+            <p class="line-26">Licence No.494/GP-BTTTT, dated August 3, 2021.</p>
+            <p class="line-26">Parent entity: <span class="fw-700">Vietnam’s Association of Foreign Invested Enterprises (VAFIE)</span></p>
+            <p class="line-26">Editor in Chief: <span class="fw-700">Dr. Nguyen Anh Tuan</span></p>
+            <p class="line-26">Acting Deputy Editor in Chief: <span class="fw-700">Pham Duc Son</span> </p>
+            <p class="line-26">Deputy Editor in Chief: <span class="fw-700">Nguyen Phong Cam</span></p>
+            <p class="line-26">Managing Editor: <span class="fw-700">Nguyen Hong Hanh</span></p>
+            <div class="d-lg-none d-block">
+              <p class="line-26">Headquarters: Floor 7, 65 Van Mieu Street, Dong Da District, Hanoi</p>
+              <p class="line-26">Email: toasoan@nhadautu.vn | Tel:  04.73083979</p>
+              <p class="line-26">Copyright©2021 Theinvestor.vn. All rights reserved.</p>
+              <p class="line-26">No reproduction without permission</p>
+            </div>
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end left -->
+        <!-- right -->
+        <div class="footer-top__right font-secondary">
+          <a href="#" class="text-white btn bg-blue-03 fs-14 border-999 footer-top__right-link">About us</a>
+          <a href="#" class="text-white btn bg-blue-03 fs-14 border-999 footer-top__right-link">Contact us</a>
+          <a href="#" class="text-white btn bg-blue-03 fs-14 border-999 footer-top__right-link">Advertise with us</a>
+          <a href="#" class="text-white btn bg-blue-03 fs-14 border-999 footer-top__right-link">Send comments & articles</a>
+        </div>
+        <!-- end right -->
+      </section>
+      <!-- end footer top -->
+      <!-- footer bootom -->
+      <section class="footer-bottom bg-blue-15 py-3 d-lg-block d-none">
+        <div class="w-1140 text-center text-gray-fc fs-14 font-secondary">
+          <p class="line-22">Headquarters: Floor 7, 65 Van Mieu Street, Dong Da District, Hanoi</p>
+          <p class="line-22">Email: toasoan@nhadautu.vn | Tel:  04.73083979</p>
+          <p class="line-22">Copyright©2021 Theinvestor.vn. All rights reserved.</p>
+          <p class="line-22">No reproduction without permission</p>
+        </div>
+      </section>
+      <!-- end footer bootom -->
+    </footer>
+    <!-- end footer -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/fontawesome.min.js"></script>
+    <script src="./js/ResizeSensor.js"></script>
+    <script src="./js/theia-sticky-sidebar.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
