@@ -58,9 +58,19 @@ document.addEventListener("DOMContentLoaded", function () {
         infinite: false,
         dots: false,
         arrows: true,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         variableWidth:true,
+      });
+    },
+    // slide mutimedia
+    slideMutimedia: function () {
+      $(".mutimedia-container--small").slick({
+        infinite: false,
+        dots: false,
+        arrows: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
       });
     },
     // scroll top
@@ -94,6 +104,8 @@ document.addEventListener("DOMContentLoaded", function () {
       this.windowScroll();
       // slide navbar mb
       this.slideNavbarMb();
+      // slide mutimedia
+      this.slideMutimedia();
     },
   };
 

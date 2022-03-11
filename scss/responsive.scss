@@ -20,156 +20,19 @@
     width: auto;
     height: 35px;
   }
-  
   .header-block__item:first-child {
     display: block;
     line-height: 1;
   }
-  .main-left-row-three {
-    margin-top: 1rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-  .row-two-item__heading,
-  .row-three__left-heading {
-    font-size: 0.9375rem;
-  }
-  .row-three__left-item:last-child {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding-bottom: 1rem;
-  }
-  .row-three__left-item {
-    padding: 1rem 0;
-  }
-  .editor-picks,
-  .top-new,
-  .companies,
-  .banking-finace,
-  .consulting,
-  .travle-life,
-  .opinion,
-  .footer-top,
-  .nav-header  {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-  .editor-picks-mb__item {
-    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
-    padding: 0.75rem 0;
-    display: flex;
-  }
-  .editor-picks-mb____content {
-    padding-left: 0.875rem;
-  }
-  .top-new__item {
-    flex-direction: row;
-    padding: 1rem 0;
-  }
-  .top-new__item:first-child {
-    padding-top: 1rem;
-    border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
-  }
-  .top-new__item--text {
-    padding-left: 0.9375rem;
-    padding-right: 0;
-  }
-  .top-new__item--title {
-    font-size: 0.9375rem;
-  }
   
-  .invseting .header-block,
-  .real-estate .header-block,
-  .infographics .header-block{
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-  }
-  .invseting .main-left-row-two .row-two-item:first-child,
-  .real-estate .main-left-row-two .row-two-item:first-child {
-    display: block;
-    padding-bottom: 0;
-  }
-  .invseting .main-left-row-two .row-two-item:first-child .row-two-item__img,
-  .real-estate .main-left-row-two .row-two-item:first-child .row-two-item__img{
-    width: 100%;
-  }
-  .invseting .main-left-row-two .row-two-item:first-child .row-two-item__content,
-  .real-estate .main-left-row-two .row-two-item:first-child .row-two-item__content{
-    padding: 0.875rem 0;
-  }
-  .invseting .main-left-row-two .row-two-item:first-child .row-two-item__heading,
-  .real-estate .main-left-row-two .row-two-item:first-child .row-two-item__heading{
-    font-size: 1.25rem;
-  }
-  .consulting-related-news {
-    margin-top: 1.25rem !important;
-  }
-  .consulting-main-news__info,
-  .consulting-related-news__item {
-    background: #FFFEF5;
-    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
-    padding: 0.625rem 0 1.5rem;
-  }
-  .consulting-related-news__item {
-    margin-bottom: 1.25rem;
-  }
-  .consulting .header-block__link.active {
-    color: #c43000;
-  }
-  .travel-life__center {
-    padding: 1rem 0;
-    display: flex;
-    border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
-    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
-  }
-  .travel-life__center .top-new__large--img {
-    flex-shrink: 0;
-    width: 35%;
-  }
-  .travel-life__center .top-new__large--title {
-    font-size: 0.9375rem;
-    padding: 0 0 0 0.9375rem;
-    
-  }
-  .travel-life__center .top-new__large--title a{
-    line-height: 1.375rem;
-  }
-  .travel-life__item__content .opinion-item__public {
-    display: none;
-  }
-  .travel-life__item {
-    padding: 1rem 0;
-  }
-  .travel-life__item:first-child {
-    padding-top: 1rem;
-  }
-  .travel-life__item__content {
-    padding-left: 0.9375rem;
-  }
-  .travel-life__item__img .thumb-5x3 {
-    padding-bottom: 60%;
-  }
-  .travel-life__item__img {
-    width: 35%;
-  }
-  .footer-top__right {
-    text-align: left;
-  }
-  .footer-top__right-link + .footer-top__right-link {
-    margin-right: 0.625rem;
-    margin-left: 0;
-  }
-  .footer-top__right-link {
-    margin-bottom: 0.625rem;
-  }
-  .footer-top__right {
-    margin-top: 0.75rem;
-  }
   .navigation-bar-item + .navigation-bar-item {
     margin-left: 0;
   }
   
   .nav-header__logo {
-    height: 1.875rem;
+    height: 50px;
+    width: auto;
+    margin: auto;
   }
   .nav-header__left {
     display: flex;
@@ -209,22 +72,205 @@
     font-size: 1.5rem;
     line-height: 0.5;
   }
-  .footer-social__item:nth-child(2) {
-    margin-left: 0;
-  }
-  .footer-categories {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1.875rem 0.5rem;
-  }
   .footer-logo-mb__logo {
     height: 50px;
   }
-  .footer-top {
-    padding: 1.5rem 0.75rem 4rem;
+
+  // 
+  .main-one,
+  .footer-top{
+    grid-template-columns: 1fr;
   }
+  .main-three,
+  .most-view-container,
+  .main-two  {
+    display: block;
+  }
+  .nav-header-wrapper {
+    padding: 0.9375rem
+  }
+  .top-header__phone {
+    padding: 0 0.9375rem;
+    overflow-x: auto;
+  }
+  .main-one--center {
+    order: 1;
+    padding: 0;
+  }
+  .main-one--right{
+    order: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.625rem;
+  }
+  .main-one--left {
+    order: 3;
+  }
+  .main-one--center-large__text,
+  .main-one--center-small,
+  .main-one--right,
+  .main-one--left,
+  .articles,
+  .mutimedia-container--large__text,
+  .most-view-container,
+  .main-three--small,
+  .footer-top__left-text {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+  .main-one--center-small {
+    grid-gap: 0.625rem;
+  }
+  .main-one--right-thumb {
+    border-bottom: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .main-one--center-large__text {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1.25rem;
+  }
+  .main-one--left-thumb__heading,
+  .mutimedia-container--small__title,
+  .article__heading {
+    font-size: 0.9375rem;
+  }
+  .main-one--left-thumb {
+    display: flex;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .most-view-container-thumb {
+    display: flex;
+    width: 100%;
+  }
+  .main-one--left-thumb__img,
+  .most-view-container-thumb__img {
+    flex-shrink: 0;
+    width: 35%;
+  }
+  .main-one--left-thumb__content,
+  .most-view-container-thumb__text {
+    padding: 0 0 0 0.625rem;
+    flex: 1;
+  }
+  .main-one--left-thumb:first-child {
+    padding-top: 1rem;
+    border-top: 1px solid #e5e5e5;
+  }
+  .most-view-container-thumb__title {
+    padding: 0;
+    font-size: 0.9375rem;
+  }
+  .main-two {
+    padding: 0;
+  }
+  .mutimedia {
+    margin-left: 0;
+    padding: 0;
+  }
+  .mutimedia-cate {
+    transform: translate(15px, -10px);
+    -webkit-transform: translate(15px, -10px);
+    -moz-transform: translate(15px, -10px);
+    -ms-transform: translate(15px, -10px);
+    -o-transform: translate(15px, -10px);
+    display: inline-block;
+  }
+  .mutimedia-header {
+    padding: 0 0.9375rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .play-mutimedia-small__icon {
+    display: none;
+  }
+  .mutimedia-container--small .slick-prev, 
+  .mutimedia-container--small .slick-next {
+    top: 30%;
+    width: 2rem;
+    height: 2rem;
+  }
+  .article-content {
+    padding-left: 0.625rem;
+    display: block;
+  }
+  .most-view-container-thumb {
+    padding: 1rem 0;
+    border-top: 1px solid #e5e5e5;
+  }
+  .most-view-container-thumb:first-child {
+    border-top: none;
+  }
+  .article {
+    padding: 1rem 0;
+  }
+  .main-three__item {
+    margin-bottom: 1.85rem;
+  }
+  .main-three__item:last-child {
+    margin-bottom: 0;
+  }
+  .main-three__item .main-heading-block {
+    margin-left: 0.5rem;
+  }
+  .main-three--large__title {
+    font-size: 1.25rem;
+    padding: 0.875rem 0.9375rem;
+  }
+  .main-three--small__img .thumb-5x3 {
+    padding-bottom: 60%;
+  }
+  .main-three--small__img {
+    width: 35%;
+  }
+  
   /*============================================================================     cate*/
  
+  .cate-one {
+    display: block;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .cate-one--left {
+    padding-right: 0;
+    border-right: none;
+  }
+  .cate-one--right {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+  .cate-left .article:first-child {
+    border-top: 1px solid #e5e5e5;
+  }
+  .categories-navbar {
+    background: #284fa7;
+    padding:0.75rem 0.9375rem ;
+    font-size: 0.875rem;
+  }
+  .category-navbar.active a {
+    font-size: 0.9375rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .category-navbar:first-child::before {
+    font-size: 1rem;
+    color: #62DFEC;
+    right: -1.5rem;
+  }
+  .category-navbar a {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  .category-navbar + .category-navbar {
+    margin-left: 1.25rem;
+  }
+  .category-navbar {
+    line-height: 0;
+  }
   // ==================================================================================detail
   
 }
