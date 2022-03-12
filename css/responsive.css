@@ -326,6 +326,17 @@
   .category-navbar {
     line-height: 0;
   }
+
+  .detail-content {
+    padding: 1.25rem 0.9375rem 1rem;
+  }
+
+  .detail-tags__mb {
+    padding: 0 0.9375rem;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */
